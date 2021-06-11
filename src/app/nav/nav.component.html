@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <div class="container-fluid">
+            <a class="navbar-brand" ref="#">Smartschool</a>
+            <a class="navbar-brand" routerLink="dashboard"> Principal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-navbar">
+                    <li class="nav-item" routerLinkActive="active">
+                        <a routerLink="profesores" class="nav-link">Profesores</a>
+                    </li>
+                </ul>
+                <div class="me-auto" position="left " class="btn-group " dropdown>
+                    <button class="me-auto" id="button-basic " dropdownToggle type="button " class="btn btn-grey dropdown-toggle " aria-controls="dropdown-basic ">
+            menu <span class="caret "></span>
+          </button>
+                    <ul class="me-auto" id="dropdown-basic " *dropdownMenu class="dropdown-menu " role="menu " aria-labelledby="button-basic ">
+                        <li role="menuitem ">
+                            <a class="dropdown-item " href="# ">datos</a>
+                        </li>
+                        <li role="menuitem ">
+                            <a class="dropdown-item " href="# ">salida</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
